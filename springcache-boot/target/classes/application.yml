@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: springcache_expire
+  redis:
+    host: 172.18.207.68
+    password: devredis@123#
+    database: 2
+  cache:
+    type: redis
